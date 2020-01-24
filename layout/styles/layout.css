@@ -1,0 +1,113 @@
+@charset "utf-8";
+/*
+Template Name: Corporation
+Author: <a href="http://www.os-templates.com/">OS Templates</a>
+Author URI: http://www.os-templates.com/
+Licence: Free to use under our free template licence terms
+Licence URI: http://www.os-templates.com/template-terms
+File: Layout CSS
+*/
+
+
+@import url("navi.css");
+@import url("tables.css");
+
+html{overflow-y:scroll;}
+body{margin:0; padding:0; font-size:13px; font-family:verdana, Arial, Helvetica, sans-serif; color:#FFFFFF; background-color:#4F473A;}
+
+.justify{text-align:justify;}
+.bold{font-weight:bold;}
+.center{text-align:center;}
+.right{text-align:right;}
+.nostart{margin:0; padding:0; list-style-type:none;}
+
+.clear{clear:both;}
+br.clear{clear:both; margin-top:-15px;}
+
+a{outline:none; text-decoration:none;}
+
+.fl_left, .imgl{float:left;}
+.fl_right, .imgr{float:right;}
+
+img{margin:0; padding:0; border:0;}
+.imgl, .imgr{border:1px solid #CCCCCC; padding:5px; color:#666666; background-color:#F7F7F7;}
+.imgl{margin:0 8px 8px 0; clear:left;}
+.imgr{margin:0 0 8px 8px; clear:right;}
+
+/* ----------------------------------------------Wrapper------------------------------------- */
+
+div.wrapper{display:block; width:100%; margin:0; text-align:left;}
+.col1{color:#000000; background-color:#04acec;}
+.col2{color:#666666; background-color:#F5F5F5;}
+.col2 a{color:#294E79; background-color:#F5F5F5;}
+.col3, .col4{color:#666666; background-color:#FFFFFF;}
+.col5{color:#FFFFFF; background-color:#04acec;}
+
+/* ----------------------------------------------Generalise------------------------------------- */
+
+#head, #gallery, #breadcrumb, #container, #footer{display:block; position:relative; width:960px; margin:0 auto;}
+
+/* ----------------------------------------------Head------------------------------------- */
+
+#head{height:110px; z-index:1000;}
+#head h1, #head p, #head ul, #head a{margin:0; padding:0; list-style:none; line-height:normal;}
+#head h1 a{position:absolute; top:20px; left:0; font-size:38px; font-weight:normal; color:#FFFFFF; background-color:#294E79; font-family:Georgia, "Times New Roman", Times, serif;}
+#head p{display:block; position:absolute; top:65px; left:0; color:#F5F5F5; background-color:#294E79; font-size:16px; font-family:Georgia, "Times New Roman", Times, serif;}
+
+/* ----------------------------------------------Breadcrumb Navigation------------------------------------- */
+
+#breadcrumb{padding:20px 0;}
+#breadcrumb a{font-weight:bold;}
+#breadcrumb ul{margin:0; padding:0; list-style:none;}
+#breadcrumb ul li{display:inline;}
+#breadcrumb ul li.first{font-weight:bold;}
+#breadcrumb ul li.current a{text-decoration:underline;}
+
+/* ----------------------------------------------Container------------------------------------- */
+
+#container{padding:40px 0;}
+#container h1, #container h2, #container h3, #container h4, #container h5, #container h6{margin:0 0 15px 0; padding:0 0 15px 0; line-height:normal; font-weight:normal; font-size:20px; font-family:Georgia, "Times New Roman", Times, serif; border-bottom:1px dashed #666666;}
+#container a{color:#294E79; background-color:#FFFFFF;}
+
+/* ----------------------------------------------Content------------------------------------- */
+
+#content{display:block; float:left; width:630px;}
+
+/* Comments */
+
+#comments{margin-bottom:40px;}
+#comments .commentlist{margin:0; padding:0;}
+#comments .commentlist ul{margin:0; padding:0; list-style:none;}
+#comments .commentlist li.comment_odd, #comments .commentlist li.comment_even{margin:0 0 10px 0; padding:15px; list-style:none;}
+#comments .commentlist li.comment_odd{color:#666666; background-color:#F7F7F7;}
+#comments .commentlist li.comment_odd a{color:#294E79; background-color:#F7F7F7;}
+#comments .commentlist li.comment_even{color:#666666; background-color:#E8E8E8;}
+#comments .commentlist li.comment_even a{color:#294E79; background-color:#E8E8E8;}
+#comments .commentlist .author .name{font-weight:bold;}
+#comments .commentlist .submitdate{font-size:smaller;}
+#comments .commentlist p{margin:10px 5px 10px 0; padding:0; font-weight:normal; text-transform:none;}
+#comments .commentlist li .avatar{float:right; border:1px solid #EEEEEE; margin:0 0 0 10px;}
+
+
+
+/* ----------------------------------------------Footer------------------------------------- */
+
+#footer{padding:20px 0;}
+#footer a{color:#98B7DC; background-color:#1C3451;}
+#footer h2{margin:0 0 15px 0; padding:0 0 8px 0; font-size:22px; font-weight:normal; font-family:Georgia, "Times New Roman", Times, serif; color:#CCCCCC; background-color:#fbf517; line-height:normal; border-bottom:1px dashed #CCCCCC;}
+#contactform{display:block; float:left; width:350px;}
+
+/* ------Company Details------ */
+
+#compdetails{display:block; float:right; width:550px;}
+#compdetails ul{margin:0; padding:0; list-style:none;}
+#compdetails li{margin:0 0 12px 0;}
+#compdetails li.last{margin:0;}
+#officialdetails{float:left}
+#officialdetails li.last{margin-bottom:20px;}
+#contactdetails{float:right}
+
+/* ------Copyright------ */
+
+#copyright{display:block; float:left; width:100%; margin:25px 0 0 0; padding:20px 0 0 0; font-size:12px; border-top:1px dashed #666666;}
+#copyright p{margin:0; padding:0;}
